@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, 
+initial-scale=1.0" />
+  <title>Ilmiya Hub</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="assets/icon/all.js"></script>
+  <script src="assets/js/app.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a class="nav-logo" href="#">
+      <div class="nav-logo-icon">
+        <i class="fa-solid fa-book-open"></i>
+      </div>
+      <div>
+        <div class="nav-logo-text">Ilmiya Hub</div>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#" class="active" data-i18n="home">Home</a></li>
+      <li><a href="#courses" data-i18n="basics">Basics</a></li>
+      <li><a href="#courses" data-i18n="intermediate">Intermediate</a></li>
+      <li><a href="#courses" data-i18n="advance">Advance</a></li>
+      <li><a href="#about" data-i18n="about">About</a></li>
+      <li><a href="#contact" data-i18n="contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="toggle-btn" id="themeToggle" title="Toggle dark/light mode">
+        <i class="fa-solid fa-sun"></i>
+      </button>
+      <button class="toggle-btn" id="langToggle" title="Switch language">HA</button>
+      <button class="btn-login" data-i18n="login" onclick="location.href='login.html'">Login</button>
+      <button class="btn-register" data-i18n="register" onclick="location.href='register.html'">Register</button>
+    </div>
+  </nav>
+  <script src="app.js"></script>
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="orb1"></div>
+    <div class="orb2"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <div class="badge-dot"></div>
+
+        <span data-i18n="spotifyKnowledge">Spotify for Knowledge</span>
+      </div>
+      <h1 class="hero-title">ILMIYA<br /><span class="orange italic">Hub!</span></h1>
+      <div class="hero-sub" data-i18n="futureEducation">The Future of Education in Arewa</div>
+      <p class="hero-desc" data-i18n="heroDesc">Making learning simple, digital, and inclusive for every Northern
+        Nigerian learner — from students to professionals, from urban areas to remote villages. In Hausa and English.
+      </p>
+      <div class="hero-btns">
+        <button class="btn-primary" data-i18n="startNow">
+          Start Now</button>
+        <button class="btn-secondary" data-i18n="registerFree">Register Free →</button>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">3</div>
+          <div class="stat-label" data-i18n="learningLevels">Learning Levels</div>
+        </div>
+        <div>
+          <div class="stat-num">7+</div>
+          <div class="stat-label" data-i18n="skillsAvailable">Skills Available</div>
+        </div>
+        <div>
+          <div class="stat-num">2</div>
+          <div class="stat-label" data-i18n="languages">Languages</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-card-group">
+      <div class="float-card">
+        <div class="float-label">
+
+          <span data-i18n="ilmiyaAI">Ilmiya AI Active</span>
+        </div>
+        <div class="float-course" data-i18n="mathBasics">Mathematics — Basics Level</div>
+        <div class="float-bar">
+          <div class="float-fill"></div>
+        </div>
+        <div class="float-pct" data-i18n="completePercent">62% complete · 2 lessons left</div>
+        <div class="float-users">
+          <span data-i18n="learningNow">+240 learning now</span>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-label" data-i18n="culturalLearning"> Cultural Learning</div>
+        <div class="info-title" data-i18n="islamicEducation">Islamic Education & Culture</div>
+        <p data-i18n="islamicDesc">At Ilmiya Hub, we blend modern learning with Arewa's Islamic heritage. Our pathway
+          includes Islamic studies, Hausa language, and values-based learning that empowers learners with both faith and
+          future-ready skills.</p>
+        <button class="card-btn" data-i18n="exploreIslamic">Explore the Islamic Path →</button>
+      </div>
+    </div>
+  </section>
+  
+  <section class="about-section">
+
+    <div class="about-header">
+      <p class="about-tag">About Us</p>
+      <h2>Building Solutions That Matter</h2>
+      <p class="about-description">
+        We create innovative digital experiences designed to solve real-world problems, empower people, and drive
+        meaningful impact through technology.
+      </p>
+    </div>
+
+    <div class="about-container">
+
+      <div class="about-card">
+        <div class="icon">
+          <i class="fa-solid fa-bullseye"></i>
+        </div>
+        <h3>Our Mission</h3>
+        <p>
+          To develop smart and accessible technology solutions
+          that improve lives, simplify processes, and create value
+          for individuals and businesses.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <div class="icon">
+          <i class="fa-solid fa-rocket"></i>
+        </div>
+        <h3>Our Vision</h3>
+        <p>
+          To become a trusted technology brand recognized for
+          innovation, excellence, and positive impact across communities.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <div class="icon">
+          <i class="fa-solid fa-gem"></i>
+        </div>
+        <h3>Our Values</h3>
+        <p>
+          Innovation, integrity, teamwork, creativity, and
+          commitment to delivering quality experiences.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <div class="icon">
+          <i class="fa-solid fa-earth-africa"></i>
+        </div>
+        <h3>Our Goal</h3>
+        <p>
+          To build products and services that solve problems
+          and create opportunities for people worldwide.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="section" id="courses">
+    <div class="sec-head">
+      <div>
+        <div class="sec-tag" data-i18n="learningPath">Learning Path</div>
+        <div class="sec-title" data-i18n="startJourney">Start Your Journey</div>
+      </div>
+ 
+    </div>
+    
+    <div class="courses-grid">
+      <!-- Hausa Language -->
+      <div class="course-card">
+        <span class="c-emoji">
+          <i class="fa-solid fa-seedling"></i>
+        </span>
+        <span class="c-tag tag-free" data-i18n="freeBasics">Free · Basics</span>
+        <div class="c-name" data-i18n="hausalang">Hausa Language</div>
+        <div class="c-desc" data-i18n="masterReading">Master reading, writing and speaking with confidence.</div>
+        <div class="c-foot">
+          <div class="c-lang"><span class="ldot"></span><span data-i18n="hausaEnglish">Hausa / English</span></div>
+          <div class="c-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+      
+      <!-- Mathematics -->
+      <div class="course-card">
+        <span class="c-emoji">
+          <i class="fa-solid fa-plus-minus"></i>
+        </span>
+        <span class="c-tag tag-free" data-i18n="freeBasics">Free · Basics</span>
+        <div class="c-name" data-i18n="mathematics">Mathematics</div>
+        <div class="c-desc" data-i18n="mathDesc">Numbers, problem solving and logical thinking.</div>
+        <div class="c-foot">
+          <div class="c-lang"><span class="ldot"></span><span data-i18n="hausaEnglish">Hausa / English</span></div>
+          <div class="c-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+      
+      <!-- Psychology -->
+      <div class="course-card">
+        <span class="c-emoji">
+          <i class="fa-solid fa-brain"></i>
+        </span>
+        <span class="c-tag tag-free" data-i18n="freeIntermediate">Free · Intermediate</span>
+        <div class="c-name" data-i18n="psychology">Psychology</div>
+        <div class="c-desc" data-i18n="psychologyDesc">Understand the human mind, emotions and social behaviour.</div>
+        <div class="c-foot">
+          <div class="c-lang"><span class="ldot"></span><span data-i18n="hausaEnglish">Hausa / English</span></div>
+          <div class="c-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+      
+      <!-- Emotional Intelligence -->
+      <div class="course-card">
+        <span class="c-emoji">
+          <i class="fa-solid fa-lightbulb"></i>
+        </span>
+        <span class="c-tag tag-paid" data-i18n="paidAdvanced">Paid · Advanced</span>
+        <div class="c-name" data-i18n="emotionalIntel">Emotional Intelligence</div>
+        <div class="c-desc" data-i18n="emotionalDesc">Build leadership, empathy and professional skills.</div>
+        <div class="c-foot">
+          <div class="c-lang"><span class="ldot"></span><span data-i18n="hausaEnglish">Hausa / English</span></div>
+          <div class="c-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+      
+      <!-- Global Awareness -->
+      <div class="course-card">
+        <span class="c-emoji">
+          <i class="fa-solid fa-earth-africa"></i>
+        </span>
+        <span class="c-tag tag-paid" data-i18n="paidAdvanced">Paid · Advanced</span>
+        <div class="c-name" data-i18n="globalAwareness">Global Awareness</div>
+        <div class="c-desc" data-i18n="globalDesc">Connect with global issues, cultures and opportunities.</div>
+        <div class="c-foot">
+          <div class="c-lang"><span class="ldot"></span><span data-i18n="hausaEnglish">Hausa / English</span></div>
+          <div class="c-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+      
+      <!-- Career Skills -->
+      <div class="course-card">
+        <span class="c-emoji">
+          <i class="fa-solid fa-user-tie"></i>
+        </span>
+        <span class="c-tag tag-paid" data-i18n="paidIntermediate">Paid · Intermediate</span>
+        <div class="c-name" data-i18n="careerSkills">Career Skills</div>
+        <div class="c-desc" data-i18n="careerDesc">CV writing, interview prep and job search strategies.</div>
+        <div class="c-foot">
+          <div class="c-lang"><span class="ldot"></span><span data-i18n="hausaEnglish">Hausa / English</span></div>
+          <div class="c-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+  <section class="learning-pathways">
+    <div class="section-header">
+      <span class="header-tagline">CHOOSE YOUR LEARNING PATH</span>
+      <div class="decorative-line"></div>
+    </div>
+
+    <div class="levels-grid">
+      <article class="path-card level-card">
+        <span class="card-badge">01</span>
+        <div class="card-hero-icon icon-basics">
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+
+        <h3 class="level-title">BASICS LEVEL</h3>
+        <p class="level-subtitle">Build Strong Foundations</p>
+
+        <div class="columns-wrap">
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-user-graduate"></i></div>
+            <h4>What Students Will Learn</h4>
+            <p>Core concepts and fundamentals to build a solid base for future learning.</p>
+          </div>
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h4>What Instructors Will Teach</h4>
+            <p>Essential knowledge clearly explained with real-life examples and practical exercises.</p>
+          </div>
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-shield-halved"></i></div>
+            <h4>Why It Matters</h4>
+            <p>A strong foundation ensures confidence, clarity, and long-term success.</p>
+          </div>
+        </div>
+
+        <a href="#" class="btn-explore explore-basics">
+          Explore Basics
+          <i class="fa-solid fa-arrow-right arrow"></i>
+        </a>
+      </article>
+
+      <article class="path-card level-card">
+        <span class="card-badge">02</span>
+        <div class="card-hero-icon icon-intermediate">
+          <i class="fa-solid fa-chart-line"></i>
+        </div>
+
+        <h3 class="level-title">INTERMEDIATE LEVEL</h3>
+        <p class="level-subtitle">Deepen Understanding</p>
+
+        <div class="columns-wrap">
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-user-graduate"></i></div>
+            <h4>What Students Will Learn</h4>
+            <p>Advanced concepts, problem-solving, and real-world application of knowledge.</p>
+          </div>
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-user-tie"></i></div>
+            <h4>What Instructors Will Teach</h4>
+            <p>In-depth lessons, guided projects, and practical insights to strengthen skills.</p>
+          </div>
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-shield-halved"></i></div>
+            <h4>Why It Matters</h4>
+            <p>Bridges the gap between theory and practice — preparing you to build and lead.</p>
+          </div>
+        </div>
+
+        <a href="#" class="btn-explore explore-intermediate">
+          Explore Intermediate
+          <i class="fa-solid fa-arrow-right arrow"></i>
+        </a>
+      </article>
+
+      <article class="path-card level-card">
+        <span class="card-badge">03</span>
+        <div class="card-hero-icon icon-advanced">
+          <i class="fa-solid fa-rocket"></i>
+        </div>
+
+        <h3 class="level-title">ADVANCED LEVEL</h3>
+        <p class="level-subtitle">Master and Innovate</p>
+
+        <div class="columns-wrap">
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-user-graduate"></i></div>
+            <h4>What Students Will Learn</h4>
+            <p>Expert-level knowledge, innovation, research, and mastery in your chosen field.</p>
+          </div>
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h4>What Instructors Will Teach</h4>
+            <p>Advanced strategies, cutting-edge tools, and mentorship for excellence.</p>
+          </div>
+          <div class="column-block">
+            <div class="column-icon-sm"><i class="fa-solid fa-shield-halved"></i></div>
+            <h4>Why It Matters</h4>
+            <p>Empowers you to innovate, solve complex problems, and create impact.</p>
+          </div>
+        </div>
+
+        <a href="#" class="btn-explore explore-advanced">
+          Explore Advanced
+          <i class="fa-solid fa-arrow-right arrow"></i>
+        </a>
+      </article>
+    </div>
+
+    <div class="categories-grid">
+      <article class="category-card card-islamiyya">
+        <div class="category-content">
+          <h3 class="cat-title">ISLAMIYYA</h3>
+          <p class="cat-subtitle">Knowledge that Nourishes the Soul</p>
+          <p class="cat-desc">Explore authentic Islamic knowledge designed to strengthen your faith, character, and
+            connection with Allah. Courses include Qur'an, Hadith, Fiqh, Seerah, and more.</p>
+
+          <div class="cat-mission">
+            <div class="mission-icon">
+              <i class="fa-solid fa-book-quran"></i>
+            </div>
+            <div>
+              <strong>Our Mission</strong>
+              <p>To revive Islamic knowledge in the hearts of believers and raise a generation of purpose, compassion,
+                and integrity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="category-graphic graphics-mosque">
+          <div class="mosque-silhouette">
+            <div class="dome"></div>
+            <div class="minaret"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="category-card card-ai">
+        <div class="category-content">
+          <h3 class="cat-title">SKILLS & AI TUTOR</h3>
+          <p class="cat-subtitle">Future Skills. Smarter Learning.</p>
+          <p class="cat-desc">Learn high-demand skills and leverage AI tutors that adapt to your pace, answer questions,
+            and guide you 24/7. From coding and design to data, robotics, and beyond.</p>
+
+          <div class="cat-mission">
+            <div class="mission-icon badge-ai">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <div>
+              <strong>Our Mission</strong>
+              <p>To equip learners with future-ready skills and AI-powered support that unlocks their full potential in
+                a digital world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="category-graphic graphics-robot">
+          <div class="robot-face">
+            <div class="screen">
+              <div class="eye left"></div>
+              <div class="eye right"></div>
+            </div>
+            <div class="code-bracket">&lt;/&gt;</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+<section class="skills-section">
+    <div class="sec-tag" data-i18n="skillsBar">
+      <i class="fa-solid fa-bolt" style="margin-right: 5px;"></i>
+      Skills Bar
+    </div>
+    <div class="sec-title" data-i18n="centurySkills">21st Century Skills for Arewa Youth</div>
+    
+    <div class="skills-grid">
+      <!-- Software Dev & Coding -->
+      <div class="skill-card">
+        <div class="sk-icon">
+          <i class="fa-solid fa-laptop-code"></i>
+        </div>
+        <div class="sk-name" data-i18n="softwareDev">Software Dev & Coding</div>
+        <div class="sk-desc" data-i18n="webApps">Web & mobile apps</div>
+      </div>
+
+      <!-- Forex & Crypto Trading -->
+      <div class="skill-card">
+        <div class="sk-icon">
+          <i class="fa-solid fa-chart-line"></i>
+        </div>
+        <div class="sk-name" data-i18n="forexTrading">Forex & Crypto Trading</div>
+        <div class="sk-desc" data-i18n="financialMarkets">Financial markets</div>
+      </div>
+
+      <!-- Real Estate -->
+      <div class="skill-card">
+        <div class="sk-icon">
+          <i class="fa-solid fa-house-chimney"></i>
+        </div>
+        <div class="sk-name" data-i18n="realEstate">Real Estate</div>
+        <div class="sk-desc" data-i18n="propertyHousing">Property & smart housing</div>
+      </div>
+
+      <!-- Cybersecurity -->
+      <div class="skill-card">
+        <div class="sk-icon">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div class="sk-name" data-i18n="cybersecurity">Cybersecurity</div>
+        <div class="sk-desc" data-i18n="digitalDefense">Digital defense</div>
+      </div>
+
+      <!-- Digital Marketing -->
+      <div class="skill-card">
+        <div class="sk-icon">
+          <i class="fa-solid fa-bullhorn"></i>
+        </div>
+        <div class="sk-name" data-i18n="digitalMarketing">Digital Marketing</div>
+        <div class="sk-desc" data-i18n="seoContent">SEO, content & branding</div>
+      </div>
+
+      <!-- AI & Machine Learning -->
+      <div class="skill-card">
+        <div class="sk-icon">
+          <i class="fa-solid fa-robot"></i>
+        </div>
+        <div class="sk-name" data-i18n="aiMachine">AI & Machine Learning</div>
+        <div class="sk-desc" data-i18n="automationAI">Automation & AI thinking</div>
+      </div>
+
+      <!-- Robotics & IoT -->
+      <div class="skill-card">
+        <div class="sk-icon">
+          <i class="fa-solid fa-microchip"></i>
+        </div>
+        <div class="sk-name" data-i18n="roboticsIoT">Robotics & IoT</div>
+        <div class="sk-desc" data-i18n="smartSystems">Smart systems</div>
+      </div>
+
+      <!-- Graphic Design -->
+      <div class="skill-card">
+        <div class="sk-icon">
+          <i class="fa-solid fa-palette"></i>
+        </div>
+        <div class="sk-name" data-i18n="graphicDesign">Graphic Design</div>
+        <div class="sk-desc" data-i18n="visualComm">Visual communication</div>
+      </div>
+    </div>
+</section>
+
+<section class="process-section">
+
+    <div class="process-header">
+      <p class="process-tag">Our Process</p>
+      <h2>How We Turn Ideas Into Reality</h2>
+      <p class="process-desc">
+        Our workflow focuses on understanding problems, creating
+        effective solutions, and delivering products with quality
+        and precision.
+      </p>
+    </div>
+
+    <div class="process-container">
+
+      <!-- Step 01: Discover -->
+      <div class="process-card">
+        <span class="step-number">01</span>
+        <div class="process-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <h3>Discover</h3>
+
+        <p>
+          We research, understand your goals, identify challenges,
+          and gather insights to build a strong foundation for the project.
+        </p>
+      </div>
+
+      <!-- Step 02: Design -->
+      <div class="process-card">
+        <span class="step-number">02</span>
+        <div class="process-icon">
+          <i class="fa-solid fa-palette"></i>
+        </div>
+
+        <h3>Design</h3>
+
+        <p>
+          We create user-focused experiences, interface concepts,
+          and clear structures that transform ideas into visual solutions.
+        </p>
+      </div>
+
+      <!-- Step 03: Build -->
+      <div class="process-card">
+        <span class="step-number">03</span>
+        <div class="process-icon">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+
+        <h3>Build</h3>
+
+        <p>
+          We develop scalable, secure, and high-performance products
+          using modern technologies and best practices.
+        </p>
+      </div>
+
+      <!-- Step 04: Deliver -->
+      <div class="process-card">
+        <span class="step-number">04</span>
+        <div class="process-icon">
+          <i class="fa-solid fa-rocket"></i>
+        </div>
+
+        <h3>Deliver</h3>
+
+        <p>
+          We launch, optimize, and continuously improve solutions
+          to ensure long-term value and performance.
+        </p>
+      </div>
+
+    </div>
+
+</section>
+  <!-- what people say section with 3 card with user image, name, role and testimonial -->
+  <section class="say-section">
+
+    <div class="sec-tag">
+      💬 Testimonials
+    </div>
+
+    <div class="sec-title">
+      What People Say About Ilmiya Hub
+    </div>
+
+    <div class="say-grid">
+
+      <!-- CARD 1 -->
+      <div class="say-card">
+
+        <div class="quote-icon">“</div>
+
+        <div class="stars">
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <div class="say-text">
+          Ilmiya Hub has transformed my learning experience.
+          The courses are well-structured and very practical.
+        </div>
+
+        <div class="say-user">
+          <img src="https://via.placeholder.com/100" alt="User">
+
+          <div>
+            <div class="say-name">
+              Amina Yusuf
+              <span class="verified">✔</span>
+            </div>
+
+            <div class="say-role">
+              Student
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="say-card">
+
+        <div class="quote-icon">“</div>
+
+        <div class="stars">
+          ⭐⭐⭐⭐⭐
+        </div>
+
+        <div class="say-text">
+          The AI tutor is a game-changer! I can ask questions
+          anytime and get instant help.
+        </div>
+
+        <div class="say-user">
+          <img src="https://via.placeholder.com/100" alt="User">
+
+          <div>
+            <div class="say-name">
+              Tahir Abdullahi
+              <span class="verified">✔</span>
+            </div>
+
+            <div class="say-role">
+              Professional
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="say-card">
+
+        <div class="quote-icon">“</div>
+
+        <div class="stars">
+          ⭐⭐⭐⭐☆
+        </div>
+
+        <div class="say-text">
+          Very smooth platform with excellent Hausa learning
+          resources and modern technology.
+        </div>
+
+        <div class="say-user">
+          <img src="https://via.placeholder.com/100" alt="User">
+
+          <div>
+            <div class="say-name">
+              Fatima Bello
+              <span class="verified">✔</span>
+            </div>
+
+            <div class="say-role">
+              Developer
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <section class="ai-section" id="about">
+    <div>
+      <div class="ai-label" data-i18n="aiIntegration">
+        🤖
+        AI Integration</div>
+      <h2 class="ai-title"><span data-i18n="meetIlmiya">Meet Ilmiya</span> —<br />Your AI
+        Tutor</h2>
+      <p class="ai-desc" data-i18n="aiDesc">Your personal AI learning companion. Ask
+        questions, get explanations, practice assignments — all in Hausa
+        or English. Available 24/7 for every learner.</p>
+      <button class="btn-primary" data-i18n="talkToIlmiya">Talk to Ilmiya AI
+
+
+      </button>
+    </div>
+    <div class="ai-box">
+      <div class="chat-lbl">
+        🤖
+        Ilmiya AI</div>
+      <div class="chat-out">Sannu! Ina son taimaka maka koyo. Me
+        kake son koyo yau?
+
+
+        <br /><small style="opacity:0.8">(Hello!
+          What do you want to learn today?)</small>
+      </div>
+      <div class="chat-in">I want to learn Mathematics — Basics
+        Level!</div>
+      <div class="chat-out">Kyau! Let's start step by step
+        together. 1 + 1 = 2. Simple!
+        ✨
+      </div>
+    </div>
+  </section>
+  <div class="cta">
+    <div>
+      <div class="cta-title" data-i18n="readyToStart">Ready to Start Learning?<br /><span data-i18n="joinIlmiya">Join
+          Ilmiya Hub Today.</span></div>
+      <div class="cta-sub" data-i18n="noExcuses">Free access to Basics & Intermediate.
+        No excuses — just knowledge.
+
+
+      </div>
+    </div>
+    <button class="cta-btn" data-i18n="startNowFree">
+      🚀
+      Start Now — It's Free</button>
+  </div>
+  <section class="contact-section">
+    <div class="contact-info">
+      <p class="contact-text">Contact Us</p>
+      <h2>Let's Build Something Great Together</h2>
+      <p class="contact-desc">
+        Have a project idea, question, or collaboration in mind?
+        Send us a message and we'll get back to you as soon as possible.
+      </p>
+
+      <div class="contact-details">
+        <div class="detail-box">
+          <span>📍</span>
+          <div>
+            <h4>Location</h4>
+            <p>Abuja, Nigeria</p>
+          </div>
+        </div>
+
+        <div class="detail-box">
+          <span>📧</span>
+          <div>
+            <h4>Email</h4>
+            <p>hello@example.com</p>
+          </div>
+        </div>
+
+        <div class="detail-box">
+          <span>📞</span>
+          <div>
+            <h4>Phone</h4>
+            <p>+234 xxx xxx xxxx</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-container">
+      <form class="contact-form">
+
+        <div class="input-group">
+          <input type="text" placeholder="Full Name" required>
+        </div>
+
+        <div class="input-group">
+          <input type="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-group">
+          <textarea rows="5" placeholder="Write your message..."></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+    </div>
+  </section>
+  <footer id="contact">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <div class="f-logo">Ilmiya Hub</div>
+        <div class="f-tag">
+          🎧 <span data-i18n="spotifyKnowledge">Spotify for Knowledge</span> · Arewa
+        </div>
+        <p class="f-desc">Muna gina fasaha da ilimi mai amfani domin gobe mafi kyau.</p>
+        <br>
+        <div class="social">
+          <a href="#" class="so-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="so-icon">
+            <i class="fa fa-x"></i>
+          </a>
+          <a href="#" class="so-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="so-icon">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-nav">
+        <h3>Links</h3>
+        <ul class="f-links">
+          <li><a href="#" data-i18n="home">Home</a></li>
+          <li><a href="#" data-i18n="courses">Courses</a></li>
+          <li><a href="#" data-i18n="skills">Skills</a></li>
+          <li><a href="#" data-i18n="about">About</a></li>
+          <li><a href="#" data-i18n="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h3>Levels</h3>
+        <ul class="f-links">
+          <li><a href="#" data-i18n="home">Basic</a></li>
+          <li><a href="#" data-i18n="courses">Intermediate</a></li>
+          <li><a href="#" data-i18n="skills">Advanced</a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="footer-subscribe">
+        <h3>Stay in the loop</h3>
+        <p>Yi rajista don samun sababbin shirye-shirye da labarai.</p>
+        <div class="subscribe-box">
+          <input type="email" placeholder="your@email.com">
+          <button type="button">SUBS</button>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="footer-divider">
+
+    <div class="footer-bottom">
+      <div class="f-copy">© 2026 Ilmiya Hub. All rights reserved.</div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
